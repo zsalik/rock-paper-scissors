@@ -11,10 +11,9 @@ section {
 }
 
 .score {
-    color: rgb(224, 224, 224)
-    height: 20vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  color: rgb(224, 224, 224);
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-
