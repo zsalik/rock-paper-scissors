@@ -13,4 +13,22 @@ const game = () => {
       match.classList.add("fadeIn");
     });
   };
+
+  //Play match
+  const playMatch = () => {
+    const options = document.querySelectorAll(".options button");
+    const playerHand = document.querySelector(".player-hand");
+    const computerHand = document.querySelector(".computer-hand");
+    const hands = document.querySelector(".hands img");
+
+    hands.forEach(hand => {
+      hand.addEventListener("animationend", function() {
+        this.style.animation = "";
+      });
+    });
+    //computer options
+    const computerOptions = ["rock", "paper", "scissors"];
+
+    options.forEach(option);
+  };
 };
